@@ -140,7 +140,7 @@ html {
 }
 
 .left-section-container {
-	width: 60%;
+	width: 70%;
 	margin:	0 auto;
 }
 
@@ -228,7 +228,7 @@ html {
 .left-section-container ul li:nth-child(2) {
 	background: #4285f4;
 	border: 1px solid #4285f4;
-	
+
 }
 
 .left-section-container ul li a {
@@ -302,14 +302,24 @@ html {
 
 /*Large devices (desktops, 992px and up) */
 @media screen and (max-width: 992px) {
+	.left-section {
+		width: 50%;
+	}
 
+	.right-section {
+		width: 50%;
+	}
 }
 
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 768px) {
-
-
+	.left-section {
+		width: 100%;
+	}
+	.right-section {
+		display: none;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
